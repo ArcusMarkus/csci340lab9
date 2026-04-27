@@ -1,4 +1,3 @@
-C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\bin\Debug\net6.0\appsettings.json
 C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\bin\Debug\net6.0\csci340lab9.staticwebassets.runtime.json
 C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\bin\Debug\net6.0\csci340lab9.staticwebassets.endpoints.json
@@ -296,3 +295,4 @@ C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\obj\Debug
 C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\obj\Debug\net6.0\csci340lab9.pdb
 C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\obj\Debug\net6.0\csci340lab9.genruntimeconfig.cache
 C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\obj\Debug\net6.0\ref\csci340lab9.dll
+C:\Users\kenny\OneDrive\Documents\GitHub\csci340lab9\ContosoUniversity\bin\Debug\net6.0\Pages\appsettings.Development.json

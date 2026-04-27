@@ -28,16 +28,20 @@ namespace csci340lab9.Pages.Students
                 return NotFound();
             }
 
-            var student = await _context.Students.FirstOrDefaultAsync(m => m.ID == id);
+                Student = await _context.Students
+                    .Include(s => s.Enrollments)
+                    .ThenInclude(e => e.Course)
+                    .AsNoTracking()
+                    .FirstOrDefaultAsync(m => m.ID == id);
 
-            if (student is not null)
+            if (Student == null)
             {
-                Student = student;
+               
 
-                return Page();
+                return NotFound();
             }
 
-            return NotFound();
+            return Page();
         }
     }
 }
