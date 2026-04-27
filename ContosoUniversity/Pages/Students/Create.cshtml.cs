@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 
-namespace ContosoUniversity.PagesStudents
+namespace csci340lab9.Pages.Students
 {
     public class CreateModel : PageModel
     {

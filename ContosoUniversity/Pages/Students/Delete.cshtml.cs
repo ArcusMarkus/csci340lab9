@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 
-namespace ContosoUniversity.PagesStudents
+namespace csci340lab9.Pages.Students
 {
     public class DeleteModel : PageModel
     {
