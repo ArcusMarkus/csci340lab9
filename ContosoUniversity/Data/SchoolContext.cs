@@ -1,7 +1,7 @@
-using ContosoUniversity.Models;
+using csci340lab9.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContosoUniversity.Data
+namespace csci340lab9.Data
 {
     public class SchoolContext : DbContext
     {

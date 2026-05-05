@@ -1,5 +1,5 @@
-using ContosoUniversity.Data;
-using ContosoUniversity.Models;
+using csci340lab9.Data;
+using csci340lab9.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

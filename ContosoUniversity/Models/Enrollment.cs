@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ContosoUniversity.Models
+namespace csci340lab9.Models
 {
     public enum Grade
     {

@@ -1,9 +1,9 @@
-using ContosoUniversity.Models;
+using csci340lab9.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ContosoUniversity.Data
+namespace csci340lab9.Data
 {
     public static class DbInitializer
     {

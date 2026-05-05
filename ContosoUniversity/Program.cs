@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ContosoUniversity.Data;
+using csci340lab9.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
