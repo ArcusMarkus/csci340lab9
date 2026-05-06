@@ -82,7 +82,7 @@ namespace csci340lab9.Data
             var chud = new Student
             {
                 FirstMidName = "Chud F",
-                LastName = "IncelGerald",
+                LastName = "Gerald",
                 Age = 67,
                 EnrollmentDate = DateTime.Parse("2026-01-01")
             };
