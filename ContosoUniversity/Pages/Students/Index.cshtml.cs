@@ -2,7 +2,9 @@ using csci340lab9.Data;
 using csci340lab9.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.Extensions.Configuration;
+using NuGet.Protocol.Plugins;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,6 +26,7 @@ namespace csci340lab9.Pages.Students
         public string DateSort { get; set; }
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
+        public string AgeSort { get; set; }
 
         public PaginatedList<Student> Students { get; set; }
 
@@ -33,6 +36,7 @@ namespace csci340lab9.Pages.Students
             CurrentSort = sortOrder;
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             DateSort = sortOrder == "Date" ? "date_desc" : "Date";
+            AgeSort = sortOrder == "Age" ? "age_desc" : "Age";
             if (searchString != null)
             {
                 pageIndex = 1;
@@ -62,9 +66,16 @@ namespace csci340lab9.Pages.Students
                 case "date_desc":
                     studentsIQ = studentsIQ.OrderByDescending(s => s.EnrollmentDate);
                     break;
+                case "Age":
+                    studentsIQ = studentsIQ.OrderBy(s => s.Age);
+                    break;
+                case "age_desc":
+                    studentsIQ = studentsIQ.OrderByDescending(s => s.Age);
+                    break;
                 default:
                     studentsIQ = studentsIQ.OrderBy(s => s.LastName);
                     break;
+                
             }
 
             var pageSize = Configuration.GetValue("PageSize", 4);

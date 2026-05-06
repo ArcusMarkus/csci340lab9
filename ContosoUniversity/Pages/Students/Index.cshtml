@@ -35,7 +35,11 @@
                 @Html.DisplayNameFor(model => model.Students[0].FirstMidName)
             </th>
             <th>
-                Age
+                <a asp-page="./Index"
+                    asp-route-sortOrder="@Model.AgeSort"
+                    asp-route-currentFilter="@Model.CurrentFilter">
+                    Age
+                </a>
             </th>
             <th>
                 <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort"
