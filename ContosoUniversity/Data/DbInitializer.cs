@@ -19,6 +19,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Carson",
                 LastName = "Alexander",
+                Age = 21,
                 EnrollmentDate = DateTime.Parse("2016-09-01")
             };
 
@@ -26,6 +27,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Meredith",
                 LastName = "Alonso",
+                Age = 20,
                 EnrollmentDate = DateTime.Parse("2018-09-01")
             };
 
@@ -33,6 +35,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Arturo",
                 LastName = "Anand",
+                Age = 22,
                 EnrollmentDate = DateTime.Parse("2019-09-01")
             };
 
@@ -40,6 +43,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Gytis",
                 LastName = "Barzdukas",
+                Age = 19,
                 EnrollmentDate = DateTime.Parse("2018-09-01")
             };
 
@@ -47,6 +51,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Yan",
                 LastName = "Li",
+                Age = 22,
                 EnrollmentDate = DateTime.Parse("2018-09-01")
             };
 
@@ -54,6 +59,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Peggy",
                 LastName = "Justice",
+                Age = 23,
                 EnrollmentDate = DateTime.Parse("2017-09-01")
             };
 
@@ -61,6 +67,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Laura",
                 LastName = "Norman",
+                Age = 20,
                 EnrollmentDate = DateTime.Parse("2019-09-01")
             };
 
@@ -68,6 +75,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Nino",
                 LastName = "Olivetto",
+                Age = 24,
                 EnrollmentDate = DateTime.Parse("2011-09-01")
             };
 
@@ -75,6 +83,7 @@ namespace csci340lab9.Data
             {
                 FirstMidName = "Chud F",
                 LastName = "IncelGerald",
+                Age = 67,
                 EnrollmentDate = DateTime.Parse("2026-01-01")
             };
 

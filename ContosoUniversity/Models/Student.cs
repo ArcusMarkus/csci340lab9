@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Humanizer;
 
 namespace csci340lab9.Models
 {
@@ -22,6 +23,7 @@ namespace csci340lab9.Models
         [Display(Name = "Enrollment Date")]
         public DateTime EnrollmentDate { get; set; }
         [Display(Name = "Full Name")]
+        public int Age { get; set; }
         public string FullName
         {
             get
