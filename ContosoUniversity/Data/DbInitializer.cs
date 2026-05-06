@@ -82,7 +82,7 @@ namespace csci340lab9.Data
             var chud = new Student
             {
                 FirstMidName = "Chud F",
-                LastName = "Gerald",
+                LastName = "FitzGerald",
                 Age = 67,
                 EnrollmentDate = DateTime.Parse("2026-01-01")
             };
@@ -336,6 +336,12 @@ namespace csci340lab9.Data
                     Student = justice,
                     Course = literature,
                     Grade = Grade.B
+                },
+                new Enrollment
+                {
+                    Student = chud,
+                    Course = chemistry,
+                    Grade = Grade.W
                 }
             };
 
