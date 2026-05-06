@@ -29,15 +29,19 @@ namespace csci340lab9.Pages.Courses
                 return NotFound();
             }
 
-            var course = await _context.Courses.FirstOrDefaultAsync(m => m.CourseID == id);
+            Course = await _context.Courses
+                .AsNoTracking()
+                .Include(c => c.Department)
+                .FirstOrDefaultAsync(m => m.CourseID == id);
 
-            if (course == null)
+
+            if (Course == null)
             {
                 return NotFound();
             }
             else
             {
-                Course = course;
+                Course = Course;
             }
             return Page();
         }
